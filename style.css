@@ -1,0 +1,146 @@
+body {
+
+  font-family: Arial, sans-serif;
+  
+  
+  line-height:2.8;
+  background-color:cadetblue;
+  color:black;
+}
+h1{
+    font-size: xx-large;
+    color: gainsboro;
+}
+
+  .header { 
+    top: 0px;
+    position:fixed;
+  padding: 100px;
+  color: white;
+  width: 200px;
+  height;
+
+  
+  
+  
+}
+
+header {
+  background-color:darkolivegreen;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav:hover{
+    color: darkcyan;
+
+    kerning: 10px;
+    list-style: circle;
+    font-size: x-large;
+}
+nav ul { color: antiquewhite;
+  list-style:none;
+  padding: 10;
+  margin: 10px;
+  display:ruby;
+  justify-content: center;
+   }
+
+
+nav ul li a {
+  color:cadetblue;
+  text-decoration: none;
+
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+section {
+  
+  padding: 40px 20px;
+   background-color: white;
+  margin: 400px;
+  border-radius: 10px;
+
+  box-shadow:#333;
+
+
+}
+section p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+section h2 {
+  color: #444;
+  margin-top: 0;
+}
+
+
+table {
+  width: 100%;
+  border: 1px;
+  margin-top: 20px;
+  background-attachment:scroll;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align:center;
+  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table th {
+  background-color:cadetblue;
+}
+
+
+form {
+  display:flow-root;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 8px;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+button {
+  width: 120px;
+  padding: 10px;
+  border: none;
+  background-color:cadetblue;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color:cadetblue;
+}
+label:hover{
+    color: cadetblue;
+    font-size: x-large;
+}
+
+
+footer {
+  background-color: darkolivegreen;
+  color: white;
+  text-align: center;
+  padding: 15px;;
+  margin:auto;
+}
